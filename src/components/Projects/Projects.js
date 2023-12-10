@@ -73,7 +73,7 @@ function Projects() {
               title="Furniture Order Management System"
               description="Java Based App which allows you to place an order for Furniture or Notebooks automating the process of buying furnitures"
               ghLink="https://github.com/jahanzaib-iqbal/FurnitureOrderManagementSystem-Java"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              
             />
           </Col>
 
