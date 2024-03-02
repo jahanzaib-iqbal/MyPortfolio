@@ -55,27 +55,27 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               
-              <li className="social-icons">
-                <a
-                  href="https://www.fiverr.com/jazzycodes"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <TbBrandFiverr />
-                </a>
-              </li>
+              // <li className="social-icons">
+              //   <a
+              //     href="https://www.fiverr.com/jazzycodes"
+              //     target="_blank"
+              //     rel="noreferrer"
+              //     className="icon-colour  home-social-icons"
+              //   >
+              //     <TbBrandFiverr />
+              //   </a>
+              // </li>
 
-              <li className="social-icons">
-                <a
-                  href="https://www.upwork.com/freelancers/~012f77d85b308805b7"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <SiUpwork />
-                </a>
-              </li>
+              // <li className="social-icons">
+              //   <a
+              //     href="https://www.upwork.com/freelancers/~012f77d85b308805b7"
+              //     target="_blank"
+              //     rel="noreferrer"
+              //     className="icon-colour  home-social-icons"
+              //   >
+              //     <SiUpwork />
+              //   </a>
+              // </li>
 
 
               <li className="social-icons">
