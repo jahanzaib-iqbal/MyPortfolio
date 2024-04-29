@@ -1,13 +1,14 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import ProjectCard from './ProjectCards';
-import Particle from '../Particle';
-import bankist from '../../Assets/Projects/Bankist.png';
-import currencyConv from '../../Assets/Projects/currencyConverter.jpg';
-import furniture from '../../Assets/Projects/furnitureSystem.png';
-import guess from '../../Assets/Projects/guessTheNumber.png';
-import pigDice from '../../Assets/Projects/pigDiceGame.png';
-import travelly from '../../Assets/Projects/travelly.png';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
+import bankist from "../../Assets/Projects/Bankist.png";
+import currencyConv from "../../Assets/Projects/currencyConverter.jpg";
+import furniture from "../../Assets/Projects/furnitureSystem.png";
+import guess from "../../Assets/Projects/guessTheNumber.png";
+import pigDice from "../../Assets/Projects/pigDiceGame.png";
+import travelix from "../../Assets/Projects/travelix.png";
+import travelly from "../../Assets/Projects/travelly.png";
 
 function Projects() {
   return (
@@ -17,10 +18,22 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: 'white' }}>
+        <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={travelix}
+              isBlog={false}
+              title="Travelix - Final Year Project"
+              description="Travelix is a Travel booking mobile and web application. I am developing as my FYP. This 
+app enables travelers to book travel clubs, hotels, and car rental services.As a full stack developer, I translate designs into functional and visually appealing interfaces using React Native and React Js. In parallel, I leveraged the 
+robust capabilities of Node Js and MongoDB to handle the backend infrastructure."
+              ghLink="https://github.com/jahanzaib-iqbal"
+              demoLink="https://travelix-final-web.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pigDice}
@@ -73,7 +86,6 @@ function Projects() {
               title="Furniture Order Management System"
               description="Java Based App which allows you to place an order for Furniture or Notebooks automating the process of buying furnitures"
               ghLink="https://github.com/jahanzaib-iqbal/FurnitureOrderManagementSystem-Java"
-              
             />
           </Col>
 

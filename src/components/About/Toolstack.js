@@ -14,16 +14,20 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <BiLogoFigma />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <AiFillChrome />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <AiFillWindows />
-      </Col>
+      </Col> */}
+      
 
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
+  
+
+      <Col xs={4} md={2} className="tech-icons">
+        <AiFillWindows />
+      </Col>
+  
     </Row>
   );
 }
