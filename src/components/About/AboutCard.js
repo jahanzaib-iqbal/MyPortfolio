@@ -1,20 +1,19 @@
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import { ImPointRight } from 'react-icons/im';
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: 'justify' }}>
+          <p style={{ textAlign: "justify" }}>
             Hello, I am <span className="purple">Jahanzaib Iqbal </span>
             from <span className="purple"> Lahore, Pakistan.</span>
-            <br /> I am a final year student pursuing BS Software Egineering
-            (BSE) at COMSATS University.
-            <br />
-            Additionally, I am currently working as a Freelancer
-            <br />
+            <br /> I am a Fresh Graduate Software Egineer from COMSATS
+            University Lahore. Passionate about crafting innovative solutions,
+            seeking a challenging role to contribute expertise and
+            problem-solving skills in a collaborative team environment.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
@@ -30,8 +29,8 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: 'rgb(155 126 172)' }}>
-          "Your imagination is your only limit."{' '}
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Your imagination is your only limit."{" "}
           </p>
         </blockquote>
       </Card.Body>
