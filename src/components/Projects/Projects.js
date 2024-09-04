@@ -52,7 +52,7 @@ robust capabilities of Node Js and MongoDB to handle the backend infrastructure.
               isBlog={false}
               title="Bankist - The Transaction App"
               description="Developed an interactive Bankist WebApp with JavaScript and Frontend with HTML+ CSS which provides login functionality for different users to keep record of transactions of different bank accounts such as deposit, withdrawal and Loan."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/jahanzaib-iqbal/Transactions-App-JS"
               demoLink="https://transactionappbyjz.netlify.app/"
             />
           </Col>
